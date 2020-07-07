@@ -15,14 +15,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zxol/airbnbapi.git"
+        "url": "git+https://github.com/rjames86/airbnbapi.git"
     },
-    "author": "zxol",
+    "author": "rjames86",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/zxol/airbnbapi/issues"
+        "url": "https://github.com/rjames86/airbnbapi/issues"
     },
-    "homepage": "https://github.com/zxol/airbnbapi#readme",
+    "homepage": "https://github.com/rjames86/airbnbapi#readme",
     "dependencies": {
         "request": "^2.85.0",
         "request-promise": "^4.2.4"
