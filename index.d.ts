@@ -193,7 +193,7 @@ declare module 'airbnbapijs' {
     }
     export type ThreadsBatchResponse = Array<BatchThread>
 
-    class AirApiClass {
+    export class AirApiClass {
         config: Config
         alterationRequestResponse: Function
         buildOptions: Function
