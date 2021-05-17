@@ -101,13 +101,15 @@ declare module 'airbnbapijs' {
     interface CalendarResponseBase {
         type: CalendarType
         available: boolean
+        listing_id: number
+        listing_id_str: string
         subtype: string | null
         subtype_or_reservation_status: string | null
         date: DATE_SHORT
         notes: string | null
     }
 
-    interface CalendarReservation {
+    export interface CalendarReservation {
         id: number
         base_price_host_native: number
         confirmation_code: string
