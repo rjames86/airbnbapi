@@ -200,7 +200,7 @@ declare module 'airbnbapijs' {
         alterationRequestResponse: Function
         buildOptions: Function
 
-        setConfig(config: {defaultToken: string, apiKey: string, currency: string, userAgent: string, proxy: string}): void
+        setConfig(config: {defaultToken?: string, apiKey?: string, currency?: string, userAgent?: string, proxy?: string}): void
 
         createThread: Function
         getCalendar(data: CalendarRequest): Array<AllCalendarResponse>
