@@ -6,7 +6,7 @@ declare module 'airbnbapijs' {
     export type AirApiClient = typeof AirApi
     export interface Config {
         api_key?: string
-        defaultToken?: string
+        token?: string
         currency?: string
         default_headers?: {
             'Content-Type': string
@@ -200,7 +200,7 @@ declare module 'airbnbapijs' {
         alterationRequestResponse: Function
         buildOptions: Function
 
-        setConfig(config: Config): void
+        setConfig(config: {defaultToken: string, apiKey: string, currency: string, userAgent: string, proxy: string}): void
 
         createThread: Function
         getCalendar(data: CalendarRequest): Array<AllCalendarResponse>
