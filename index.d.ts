@@ -6,7 +6,7 @@ declare module 'airbnbapijs' {
     export type AirApiClient = typeof AirApi
     export interface Config {
         api_key?: string
-        token?: string
+        defaultToken?: string
         currency?: string
         default_headers?: {
             'Content-Type': string
